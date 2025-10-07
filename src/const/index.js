@@ -1,12 +1,23 @@
 export { candidates };
 
+import nikita from "/images/nikita.jpg";
+import posterNikita from "/posters/poster-nikita.png";
+import ansar from "/images/ansar.jpg";
+import posterAnsar from "/posters/poster-ansar.png";
+import ildar from "/images/ildar.jpeg";
+import posterIldar from "/posters/poster-ildar.jpeg";
+import danil from "/images/danil.jpeg";
+import posterDanil from "/posters/poster-danil.jpeg";
+import malika from "/images/malika.jpeg";
+import posterMalika from "/posters/poster-malika.jpeg";
+
 const candidates = [
 	{
 		id: 1,
 		name: "Никита Подглазов",
 		grade: "10Г",
 		slogan: "Мы не сидим сложа руки!",
-		photo: "src/assets/images/nikita.jpg",
+		photo: nikita,
 		program: [
 			"Клубы настольных игр",
 			"Киберспортивные турниры",
@@ -35,7 +46,7 @@ const candidates = [
 			"Креативность",
 		],
 		bio: "С первого класса я активно участвую в жизни школы и девять лет остаюсь отличником. За это время принимал участие в олимпиадах, конкурсах и мероприятиях, где не раз занимал призовые места. ",
-		poster: "src/assets/posters/poster-nikita.png",
+		poster: posterNikita,
 		video: "https://www.instagram.com/reel/DPRAunVCO7x/",
 	},
 	{
@@ -43,7 +54,7 @@ const candidates = [
 		name: "Сыздык Ансар",
 		grade: "10Г",
 		slogan: "Твой Выбор - Твоё Будущее!",
-		photo: "src/assets/images/ansar.jpg",
+		photo: ansar,
 		program: [
 			"Добавить “Награду месяца” для активных учеников (в учёбе, спорте, творчестве).",
 			"Создать “Клуб помощи по предметам”, где сильные ученики будут помогать одноклассникам подтягивать оценки.",
@@ -59,7 +70,7 @@ const candidates = [
 			"Лидерские качества",
 		],
 		bio: "Я активный и целеустремлённый человек, обладающий лидерскими качествами и стремлением к развитию школьного сообщества. ",
-		poster: "src/assets/posters/poster-ansar.png",
+		poster: posterAnsar,
 		video: "https://www.instagram.com/reel/DPRBFLciOlF/",
 	},
 	{
@@ -67,7 +78,7 @@ const candidates = [
 		name: "Такеев Ильдар",
 		grade: "10В",
 		slogan: "Вместе за лучшую школу!",
-		photo: "src/assets/images/ildar.jpeg",
+		photo: ildar,
 		program: [
 			"Предложения от учеников",
 			"Клубы по интересам",
@@ -91,7 +102,7 @@ const candidates = [
 			"Обладающий хорошим качеством ума",
 		],
 		bio: "Моя цель: сделать школу местом, где каждому комфортно, интересно и хочется участвовать в жизни класса и всей школы.",
-		poster: "src/assets/posters/poster-ildar.jpeg",
+		poster: posterIldar,
 		video: "https://www.instagram.com/reel/DPRCCgpiPpt/",
 	},
 	{
@@ -99,7 +110,7 @@ const candidates = [
 		name: "Баталов Даниил",
 		grade: "9А",
 		slogan: "«Перемен требуют наши сердца!»",
-		photo: "src/assets/images/danil.jpeg",
+		photo: danil,
 		program: [
 			"Открытый микрофон",
 			"Корзина предложений",
@@ -121,7 +132,7 @@ const candidates = [
 			"Заботящийся",
 		],
 		bio: "Я ответственный, коммуникабельный. Всегда стараюсь доводить начатое до конца. Всегда стремился и буду стремиться сделать школу комфортнее для всех учеников",
-		poster: "src/assets/posters/poster-danil.jpeg",
+		poster: posterDanil,
 		video: "https://www.instagram.com/reel/DPQ_h4lCLri/",
 	},
 	{
@@ -129,7 +140,7 @@ const candidates = [
 		name: "Искакова Малика",
 		grade: "9В",
 		slogan: "Голосуйте за меня и вместе мы сделаем школу лучше!",
-		photo: "src/assets/images/malika.jpeg",
+		photo: malika,
 		program: [
 			"Создать школьный клуб поддержки интересных идей учеников",
 			`Проведение ежемесячного "Дня талантов", где ученики смогут показывать свои способности`,
@@ -157,7 +168,7 @@ const candidates = [
 			"Целеустремленность",
 		],
 		bio: "2023-2026 Аким класса. (Ранее зам. Акима) Лидер фракции право и порядок (волонтёрство). Участница дебатного клуба и олимпиад",
-		poster: "src/assets/posters/poster-malika.jpeg",
+		poster: posterMalika,
 		video: "https://www.instagram.com/p/DPRBq14iDDs/",
 	},
 ];
