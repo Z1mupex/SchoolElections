@@ -1,6 +1,5 @@
 {
   "name": "elections",
-  "homepage": "https://z1mupex.github.io/SchoolElections/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
